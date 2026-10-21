@@ -1,0 +1,11 @@
+add_executable(benchmark_algo_fifo main.c)
+target_link_libraries(benchmark_algo_fifo algo_fifo)
+
+add_executable(benchmark_algo_mfu main.c)
+target_link_libraries(benchmark_algo_mfu algo_mfu)
+
+add_executable(benchmark_algo_esc main.c)
+target_link_libraries(benchmark_algo_esc algo_esc)
+
+add_executable(benchmark_algo_double_fifo main.c)
+target_link_libraries(benchmark_algo_double_fifo algo_double_fifo)
